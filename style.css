@@ -1,0 +1,178 @@
+body{
+    background: url(WeatherAppBackground.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.weatherForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ 
+}
+ 
+.cityInput{
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255, 0.192);
+    outline: none;
+    border-radius: 10px;
+    font-size: 22px;
+    color: white;
+    padding: 15px 5px;
+    width: 350px;
+    text-align: center;
+    font-weight: bold;
+    font-style: Arial;
+}
+
+.cityInput::placeholder{
+    color: hsla(0, 0%, 100%, 0.904);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-solid.fa-location-dot{
+    position: absolute;
+    margin-right: 300px;
+    color: rgb(255,255,255);
+    font-size: 40px;
+}
+
+ 
+
+Button[type="submit"]{
+    position: absolute;
+    right: 775px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+     color: rgba(255, 255, 255, 0.473);
+}
+
+.Card{
+   
+    margin: auto;
+    width: 530px;
+    height: 70vh;
+    margin-top: 40px;
+    background: linear-gradient(100deg,hsla(286, 100%, 25%, 0.062),hsla(204, 100%, 50%, 0.062));
+    backdrop-filter: blur(8px);
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    border: hsla(0, 0%, 50%, 0.089) 2px solid;
+    
+}
+
+.weatherInfo{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    color: white;
+    
+
+}
+
+.weatherInfo h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 1px;
+}
+
+.weatherInfo img{
+    width: 300px;
+    height: 270px;
+    margin-top: -25px;
+}
+
+.Celsius{
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 0px;
+    
+
+}
+
+.weatherDesc{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-decoration: underline solid 7px;
+    text-underline-offset: 0.3em;
+    font-style: italic;
+    margin: 0;
+}
+
+.weatherDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 65px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.fa-solid.fa-water, .fa-solid.fa-wind{
+    font-size: 5rem;
+    margin-bottom: 40px;
+}
+
+ 
+
+.Humidity , .Wind{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: -25px;
+    margin-left: 10px;
+    font-style: oblique;
+    font-weight: bold;
+    
+
+}
+
+.errorDisplay{
+   text-align: center;
+}
+.errorDisplay img{
+    width: 400px;
+    height: 400px;
+    margin-top: 15px;
+    
+     
+}
+
+.errorDisplay h1{
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+     margin-left: 40px;
+    
+}
+
+ 
+ 
+
+ 
+ 
+
+ 
+  
+ 
+ 
+ 
